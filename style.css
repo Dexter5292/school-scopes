@@ -7,11 +7,50 @@ body {
     color: #333;
 }
 
-h1 {
+/* --- NEW HEADER STYLES --- */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    background-color: #004a99; /* A dark blue to match the logo */
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+header img {
+    height: 60px; /* Resize logo */
+    margin-right: 20px;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 2.2em;
+    border: none; /* Remove border from main h1 */
+}
+/* -------------------------- */
+
+
+/* Changed h1 to h2 */
+h2 {
     color: #2c3e50;
     border-bottom: 2px solid #3498db;
     padding-bottom: 10px;
 }
+
+/* --- NEW PARAGRAPH STYLE --- */
+p {
+    background-color: #eaf6ff;
+    border: 1px solid #cbe7ff;
+    border-radius: 4px;
+    padding: 12px 15px;
+    line-height: 1.5;
+    margin-top: 0;
+}
+/* --------------------------- */
+
 
 /* Style the DataTables search box and other controls */
 .dataTables_wrapper .dataTables_filter input {
